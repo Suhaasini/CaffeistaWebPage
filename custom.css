@@ -1,0 +1,218 @@
+header img
+{
+    position:relative;
+    height:400px;
+    width:100%;
+    z-index:-1;    
+}
+header h3
+{
+    font-family:'Grand Hotel';
+    position:absolute;
+    z-index:1;
+    top:260px;
+    font-size:50px;
+    margin-left:47%;
+}
+header p 
+{
+    position:absolute;
+    z-index:1;
+    top:350px;
+    font-size:22px;
+    margin-left:52%;
+}
+body 
+{
+    background-image:url("backdrop.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.login 
+{
+    margin-top:30px;
+    height:500px;
+    width:600px;
+    backdrop-filter: blur(7px);
+    box-shadow: 10px 10px transparent;
+    border: solid white 4px;
+    margin-left:30%;
+    align-items: center;
+}
+.login h3 
+{
+    color:white;
+    font-family:"Merriweather";
+    font-size: 30px;
+    text-align:center;
+    margin-top:25px;
+}
+.login p 
+{
+    color:white;
+    font-family:"Crimson Text";
+    font-size:25px;
+    margin-left:10px;
+    margin-bottom:15px;
+}
+.login input 
+{
+    height:25px;
+    width:250px;
+    margin-left:10px;
+    
+}
+button 
+{
+    height:50px;
+    width:180px;
+    margin-top:25px;
+    background-color:black;
+    color:white;
+    font-family:"Merriweather";
+    font-size:20px;
+}
+button:hover 
+{
+    background-color:white;
+    color:black;
+    font-family:"Merriweather";
+    font-size:20px;
+}
+footer 
+{
+    background-color:#8a624a ;
+}
+footer h3
+{
+    color:white;
+    font-family:"Merriweather";
+    margin-top:50px;
+    text-align:center;
+}
+footer i 
+{
+    height:20px;
+    width:20px;
+    color:white;
+    padding:12px;
+}
+
+.orders 
+{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+.food 
+{
+    backdrop-filter: blur(7px);
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.8);
+    height:480px;
+    width:350px;
+    margin:25px;
+    border-radius:10px;
+}
+.food img 
+{
+    height:350px;
+    width:350px;
+    border-radius:10px;
+}
+.food p 
+{
+    margin-left:20px;
+    font-family:"Merriweather";
+    color:white;
+}
+.food a 
+{
+
+    font-family:"Grand Hotel";
+    text-decoration:none;
+    border:solid white 2px;
+    padding:3px;
+    background-color:white;
+    color:black;
+}
+.QR 
+{
+    padding-left:30%;
+    height:500px;
+    width:500px;
+}
+.QR img 
+{
+    height:320px;
+    padding-top:40px;
+}
+.QR a
+{
+    font-family:"Grand Hotel";
+    text-decoration:none;
+    border:solid white 3px;
+    padding:12px;
+    background-color:white;
+    color:black;
+    font-size:20px;
+}
+.QR a:hover 
+{
+    background-color:black;
+    color:white;
+    font-size:20px;
+}
+.thanks 
+{
+    backdrop-filter: blur(7px);
+
+}
+.thanks p 
+{
+    padding:20px;
+    text-align:center;
+    color:white;
+    font-family:"Merriweather";
+    font-size:40px;
+}
+.confetti-container
+ {
+    z-index: 10;
+  }
+  
+  .confetti
+   {
+    position: fixed;
+    left: 0;
+    right: 0;
+    display: flex;
+  }
+  .confetti .square {
+    width: 1rem;
+    height: 1rem;
+    background-color: var(--bg);
+    transform: rotate(140deg);
+  }
+  .confetti i {
+    width: 3rem;
+    height: 3rem;
+    margin: 0 0.2rem;
+    animation-name: confetti;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: calc(60s / var(--speed));
+  }
+  
+  .confetti i:nth-child(even) {
+    transform: rotate(90deg);
+  }
+  
+  @keyframes confetti {
+    0% {
+      transform: translateY(-100vh);
+    }
+  
+    100% {
+      transform: translateY(100vh);
+    }
+  }
